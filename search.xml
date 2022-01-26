@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>stm32f103串口通信</title>
+      <link href="//230d1ad3.html"/>
+      <url>//230d1ad3.html</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>USART和UART</p><ul><li><b>usart</b>:通用同步和异步收发器，一般只能用于异步串行通讯</li><li><b>uart</b>:通用异步收发器，既可用于同步串行通讯，也能用于异步串行通讯</li></ul></li><li><p>两种通信方式</p><ul><li><b>串行通信</b>:<ul><li>传输原理：数据按位顺序传输。</li><li>优点：占用引脚资源少。</li><li>缺点：速度相对较慢。</li></ul></li><li><b>并行通信</b>：<ul><li>原理：数据各个位同时传输。</li><li>优点：速度快。</li><li>缺点：占用引脚资源多</li></ul></li></ul></li><li><p>传送模式</p><ul><li>单工模式</li><li>半双工模式</li><li>全工模式</li></ul></li><li><p>同步和异步</p><ul><li><b>同步</b>：发送方发出数据后，等接收方发回响应以后才发下一个数据包的通讯方式。</li><li><b>异步</b>：发送方发出数据后，不等接收方发回响应，接着发送下个数据包的通讯方式。</li><li>同步是阻塞模式，异步是非阻塞模式。</li></ul></li><li></li></ul><table><thead><tr><th>通信标准</th><th>通信方式</th><th>通信方向</th></tr></thead><tbody><tr><td>UART</td><td>异步通信</td><td>全双工</td></tr><tr><td>SPI</td><td>同步通信</td><td>全双工</td></tr><tr><td>I2C</td><td>同步通信</td><td>半双工</td></tr></tbody></table><ul><li><p>串口编写流程</p><ul><li>串口时钟、GPIO时钟使能</li><li>GPIO端口模式设置</li><li>串口参数初始化</li><li>开启中断并且初始化NVIC</li><li>使能串口</li><li>编写中断处理函数</li></ul></li><li><p>发送和接收过程注意事项</p><ul><li>不管是接收还是发送，都通过两个寄存器</li><li>接受和发送使用的是同个寄存器（数据寄存器）</li><li>这个过程是由CPU或DMA处理</li></ul></li><li><p>串口的三个重要寄存器</p><ul><li>TXE:发送数据寄存器空</li><li>TC:发送完成</li><li>RXNE:读数据寄存器非空</li><li>注意：TXE和TC的复位值为1，RXNE的复位值为0！</li></ul></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="//4a17b156.html"/>
       <url>//4a17b156.html</url>
