@@ -8,7 +8,7 @@
       <link href="//d87f7e0c.html"/>
       <url>//d87f7e0c.html</url>
       
-        <content type="html"><![CDATA[<h1 id="1新建博客文件"><a class="markdownIt-Anchor" href="#1新建博客文件"></a> 1.新建博客文件</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n 文件名</span><br></pre></td></tr></table></figure><div align="center">  <img src="/images/image-20220225091403007.png" width="450px">  <p align="center" style="font-size:15px;font-family:kaiti;color:red">新建一个test博客文件 </p></div><p><span style="color:blue;background:yellow;font-size:18px;font-family:hei">测试字体</span></p><p><img src="/images/image-20220225091403007.png" alt="image-20220225091403007"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="1新建博客文件"><a class="markdownIt-Anchor" href="#1新建博客文件"></a> 1.新建博客文件</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n 文件名</span><br></pre></td></tr></table></figure><div align="center">  <img src="/images/image-20220225091403007.png" width="450px">  <p align="center" style="font-size:15px;font-family:kaiti;color:red">新建一个test博客文件 </p></div><span style="color:blue;background:yellow;font-size:18px;font-family:hei">测试字体</span><p><img src="/images/image-20220225091403007.png" alt="image-20220225091403007"></p><p><b>22</b></p><div class="row">    <embed src="/local_file/test.pdf" width="100%" height="550" type="application/pdf"></div><p><a href="/local_file/test.pdf" target="_blank">点击这里在新的网页打开pdf文件</a></p>]]></content>
       
       
       
