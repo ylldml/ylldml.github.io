@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>git学习笔记</title>
+      <link href="//21db94ec.html"/>
+      <url>//21db94ec.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-git的概念"><a class="markdownIt-Anchor" href="#1-git的概念"></a> 1. git的概念</h1><p><img src="/images/git/image-20220305102927659.png" alt="image-20220305102927659"><br><img src="/images/git/image-20220305103156233.png" alt="image-20220305103156233"></p><p><img src="/images/git/image-20220305103700875.png" alt="image-20220305103700875"></p><p><img src="/images/git/image-20220305103826117.png" alt="image-20220305103826117"></p><p><img src="/images/git/image-20220305104030115.png" alt="image-20220305104030115"></p><h1 id="2-git简史"><a class="markdownIt-Anchor" href="#2-git简史"></a> 2. git简史</h1><p><img src="/images/git/image-20220305104306024.png" alt="image-20220305104306024"></p><h1 id="3-git安装过程"><a class="markdownIt-Anchor" href="#3-git安装过程"></a> 3. git安装过程</h1><h1 id="4-git结构"><a class="markdownIt-Anchor" href="#4-git结构"></a> 4. git结构</h1><p><img src="/images/git/image-20220305104627948.png" alt="image-20220305104627948"></p><h1 id="5-代码托管中心_本地库和远程库的交互方式"><a class="markdownIt-Anchor" href="#5-代码托管中心_本地库和远程库的交互方式"></a> 5. 代码托管中心_本地库和远程库的交互方式</h1><p><img src="/images/git/image-20220305104918741.png" alt="image-20220305104918741"></p><p><img src="/images/git/image-20220305105054021.png" alt="image-20220305105054021"></p><p><img src="/images/git/image-20220305105150801.png" alt="image-20220305105150801"></p><h1 id="6-初始化本地仓库"><a class="markdownIt-Anchor" href="#6-初始化本地仓库"></a> 6. 初始化本地仓库</h1><p><img src="/images/git/image-20220305105350031.png" alt="image-20220305105350031"></p><p><img src="/images/git/image-20220305105458390.png" alt="image-20220305105458390"></p><p><img src="/images/git/image-20220305105701213.png" alt="image-20220305105701213"></p><h1 id="7-常用命令-add和commit"><a class="markdownIt-Anchor" href="#7-常用命令-add和commit"></a> 7. 常用命令- add和commit</h1><p><img src="/images/git/image-20220305110033072.png" alt="image-20220305110033072"></p><p><img src="/images/git/image-20220305110110473.png" alt="image-20220305110110473"></p><h1 id="7-常用命令-status"><a class="markdownIt-Anchor" href="#7-常用命令-status"></a> 7. 常用命令- Status</h1><p><img src="/images/git/image-20220305110359777.png" alt="image-20220305110359777"></p><p><img src="/images/git/image-20220305110508466.png" alt="image-20220305110508466"></p><p><img src="/images/git/image-20220305110610258.png" alt="image-20220305110610258"></p><p><img src="/images/git/image-20220305110635629.png" alt="image-20220305110635629"></p><h1 id="8常用命令-log命令"><a class="markdownIt-Anchor" href="#8常用命令-log命令"></a> 8.常用命令- log命令</h1><p><img src="/images/git/image-20220305115437910.png" alt="image-20220305115437910"></p><p><img src="/images/git/image-20220305115601715.png" alt="image-20220305115601715"></p><p><img src="/images/git/image-20220305115728382.png" alt="image-20220305115728382"></p><p><img src="/images/git/image-20220305115903952.png" alt="image-20220305115903952"></p><h1 id="9常用命令_reset"><a class="markdownIt-Anchor" href="#9常用命令_reset"></a> 9.常用命令_reset</h1><p><img src="/images/git/image-20220305120522725.png" alt="image-20220305120522725"></p><p><img src="/images/git/image-20220305120742717.png" alt="image-20220305120742717"></p><p><img src="/images/git/image-20220305120801534.png" alt="image-20220305120801534"></p><p><img src="/images/git/image-20220305120822975.png" alt="image-20220305120822975"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>dataStruction</title>
       <link href="//746cd675.html"/>
       <url>//746cd675.html</url>
