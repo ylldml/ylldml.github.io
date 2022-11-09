@@ -4,6 +4,95 @@
   
     
     <entry>
+      <title>MM32</title>
+      <link href="//cc475df.html"/>
+      <url>//cc475df.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="E104-BT52"><a href="#E104-BT52" class="headerlink" title="E104-BT52"></a>E104-BT52</h1><p>DA14531 BLE5.0 低功耗贴片型 蓝牙转</p><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105111903763.png" alt="image-20221105111903763"></p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>E104-BT52 是一款基于蓝牙协议 5.0 版本的串口转 BLE 蓝牙主从一体模块，体 积小、功耗低，工作在 2.4GHz 频段。 E104-BT52 模块是成都亿佰特电子科技有限公司基于 dialog 的 DA14531 芯片研 发，该模块使用通用的 AT 指令设置参数，操作简单快捷。模块仅支持蓝牙主机、从 机和观察者模式，模块在功能上支持低功耗广播、数据透传、空中配置。模块可广 泛应用于智能穿戴、家庭自动化、家庭安防、个人保健、智能家电、配饰与遥控器、 汽车、照明、工业互联网、智能数据采集、智能控制等领域。最大支持波特率460800bps 的数据传输。</p><h2 id="特点功能"><a href="#特点功能" class="headerlink" title="特点功能"></a>特点功能</h2><p>支持蓝牙 BLE 5.0 协议</p><p>支持开机自动广播，自动连接；</p><p>3.3v 超过3.6v永久烧毁 距离90m</p><h2 id="推荐电路"><a href="#推荐电路" class="headerlink" title="推荐电路"></a>推荐电路</h2><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105112408038.png" alt="image-20221105112408038"></p><h2 id="从机"><a href="#从机" class="headerlink" title="从机"></a>从机</h2><ol><li>AT+ROLE&#x3D;0 选择从机模式 2. AT+ADV&#x3D;1 配置普通广播模式 3. 广播开关配置为开启，上电完成自动进入广播状态，否则停止广播设备不可发现。 4. 收到主机连接请求后，建立蓝牙连接停止蓝牙广播，进入数据传输模式。 5. 广播数据配置参见 5.5 广播所述</li></ol><h2 id="普通广播信息"><a href="#普通广播信息" class="headerlink" title="普通广播信息"></a>普通广播信息</h2><p>广播信息包括 advertising 和 scan response，advertising 为主动发送的广播报，scan response 为接收到主机扫描请 求后回复的广播报。</p><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105112555464.png" alt="image-20221105112555464"></p><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105112622920.png" alt="image-20221105112622920"></p><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105112637897.png" alt="image-20221105112637897"></p><h2 id="AT-ADVDAT-广播数"><a href="#AT-ADVDAT-广播数" class="headerlink" title="AT+ADVDAT 广播数"></a>AT+ADVDAT 广播数</h2><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105112855587.png" alt="image-20221105112855587"></p><h2 id="AT-ADVINTV-广播间隙"><a href="#AT-ADVINTV-广播间隙" class="headerlink" title="AT+ADVINTV 广播间隙"></a>AT+ADVINTV 广播间隙</h2><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105112935321.png" alt="image-20221105112935321"></p><h2 id="AT-NAME-广播设备名"><a href="#AT-NAME-广播设备名" class="headerlink" title="AT+NAME 广播设备名"></a>AT+NAME 广播设备名</h2><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221105113026660.png" alt="image-20221105113026660"></p><h2 id="广播数据发送"><a href="#广播数据发送" class="headerlink" title="广播数据发送"></a>广播数据发送</h2><ul><li>41 54 2B 41 44 56 44 41 54 3D</li></ul><h1 id="MM32"><a href="#MM32" class="headerlink" title="MM32"></a>MM32</h1><h2 id="MST盐分、水分、温度数据"><a href="#MST盐分、水分、温度数据" class="headerlink" title="MST盐分、水分、温度数据"></a>MST盐分、水分、温度数据</h2><p><img src="/../../../../../HEXO/blog/source/images/MM32/image-20221106104932866.png" alt="image-20221106104932866"></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MY_TEMPERATURE_ADDR_OFFSET  0xB</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MY_SOIL_WATER_CONTENT_ADDR_OFFSET  0xC</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MY_SOIL_EC_ADDR_OFFSET  0xD</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="串口视频教程参考"><a href="#串口视频教程参考" class="headerlink" title="串口视频教程参考"></a>串口视频教程参考</h1><p>[<a href="https://www.bilibili.com/video/BV1th411z7sn?p=27&vd_source=ee7335ebfd929e1c84934991f9c23513">9-3] 串口发送&amp;串口发送+接收_哔哩哔哩_bilibili</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 毕业设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> E104-BT52 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AndroidStudio</title>
+      <link href="//737f3f95.html"/>
+      <url>//737f3f95.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h1><p><a href="https://developer.android.google.cn/studio/">Download Android Studio &amp; App Tools - Android Developers (google.cn)</a></p><h1 id="学习视频教程推荐"><a href="#学习视频教程推荐" class="headerlink" title="学习视频教程推荐"></a>学习视频教程推荐</h1><p><a href="https://www.bilibili.com/video/BV1Np4y1a7UN?p=1&vd_source=ee7335ebfd929e1c84934991f9c23513">第一个应用HelloWorld_哔哩哔哩_bilibili</a></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Button buttonhole=(Button) findViewById(R.id.buttonChoise);</span><br><span class="line">        editText=(EditText) findViewById(R.id.input_message);</span><br><span class="line">        buttonhole.setOnClickListener(v -&gt; &#123;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">switch</span> (v.getId()) &#123;</span><br><span class="line">                <span class="keyword">case</span> R.id.buttonChoise:</span><br><span class="line">                    String inputText=editText.getText().toString();</span><br><span class="line">                    choiceAd=inputText;</span><br><span class="line">                    Toast.makeText(MainActivity.<span class="built_in">this</span>,choiceAd,Toast.LENGTH_SHORT).show();</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">default</span>:</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure><h1 id="Android-Studio-打包APK（详细版）"><a href="#Android-Studio-打包APK（详细版）" class="headerlink" title="Android Studio 打包APK（详细版）"></a>Android Studio 打包APK（详细版）</h1><p><a href="https://blog.csdn.net/qq_38436214/article/details/112288954">(3条消息) Android Studio 打包APK（详细版）_初学者-Study的博客-CSDN博客_安卓打包apk</a></p><h1 id="发送消息对话框-按钮"><a href="#发送消息对话框-按钮" class="headerlink" title="发送消息对话框+按钮"></a>发送消息对话框+按钮</h1><ol><li>代码</li></ol><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;utf-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">LinearLayout</span> <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:tools</span>=<span class="string">&quot;http://schemas.android.com/tools&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:orientation</span>=<span class="string">&quot;horizontal&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">tools:context</span>=<span class="string">&quot;.MainActivity&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">EditText</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:id</span>=<span class="string">&quot;@+id/input_message&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;0dp&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_weight</span>=<span class="string">&quot;1&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:hint</span>=<span class="string">&quot;输入消息&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Button</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:id</span>=<span class="string">&quot;@+id/send&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:text</span>=<span class="string">&quot;发送&quot;</span> /&gt;</span></span><br><span class="line">    </span><br><span class="line"><span class="tag">&lt;/<span class="name">LinearLayout</span>&gt;</span></span><br></pre></td></tr></table></figure><ol start="2"><li>图片</li></ol><p><img src="/../../../../../HEXO/blog/source/images/AndroidStudio/image-20221104201749811.png" alt="image-20221104201749811"></p><h1 id="Android-studio自定义EditText输入框样式"><a href="#Android-studio自定义EditText输入框样式" class="headerlink" title="Android studio自定义EditText输入框样式"></a>Android studio自定义EditText输入框样式</h1><p><a href="https://www.bilibili.com/video/BV1nr4y157u2/?spm_id_from=333.999.0.0&vd_source=ee7335ebfd929e1c84934991f9c23513">Android studio自定义EditText输入框样式_哔哩哔哩_bilibili</a></p><h1 id="个性化按钮"><a href="#个性化按钮" class="headerlink" title="个性化按钮"></a>个性化按钮</h1><p><a href="https://www.bilibili.com/video/BV1HZ4y1z775/?spm_id_from=333.999.0.0&vd_source=ee7335ebfd929e1c84934991f9c23513">Android studio实现超好看个性化按钮_哔哩哔哩_bilibili</a></p><h1 id="渐变色"><a href="#渐变色" class="headerlink" title="渐变色"></a>渐变色</h1><p><a href="https://webgradients.com/">Fresh Background Gradients | WebGradients.com 💎</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>二层PCB</title>
+      <link href="//8a17494f.html"/>
+      <url>//8a17494f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="相关网站"><a href="#相关网站" class="headerlink" title="相关网站"></a>相关网站</h1><ol><li><a href="https://www.ebyte.com/product-view-news.html?id=1028">E104-BT52 DA14531芯片主从一体蓝牙模块-蓝牙5.0 协议 -蓝牙转串口模块 (ebyte.com)</a></li><li></li></ol><h1 id="创建一个空白的电子设计工程"><a href="#创建一个空白的电子设计工程" class="headerlink" title="创建一个空白的电子设计工程"></a>创建一个空白的电子设计工程</h1><p><img src="/../../../../../HEXO/blog/source/images/pcbTwo/image-20221102130912232.png" alt="image-20221102130912232"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 毕业设计 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python</title>
+      <link href="//a4d4b8b8.html"/>
+      <url>//a4d4b8b8.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>求职</title>
+      <link href="//7a4fe131.html"/>
+      <url>//7a4fe131.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过你还是能看看解密后的内容。">  <script id="hbeData" type="hbeData" data-hmacdigest="950989a6ee7803a333df3c08b201dab1cc2559eca5ae8e40d9693759010a9d36">1b693c4938223286468132b2f7068bf6843f685a75b91ea775f5232a30882919c11c766bf1e78ff2257345cc84b6b5ed5c88fc6cb4c15d205c6169dcfcc586f235262ea2d78205cbc0242fae235f497e8ab3416f473e3dad21cf049976179620d6fffe96ecf3867d7284e009ee6ebab83259e52b469d2f6491ebd337f684c014e1514c7b9d9251f7045af2a3073fabc45d118d36e412e9a00508f827778dfb735af433ef29e1b3ce265ad3465e53c9d4c9dd4a939e5f77df2c4dbce0f3fbb732e43ea50e0301df9fc532df72d8f7f4cfb1b5a3bacfc088e1568f54e7d775b6793b0ea73a01f4994998ec192128049b5d10677d78aa86a9abddc934fbdeb160eb4b118a69286f22699df70380d5f9cb1bf74a44931f57540391cc3e1b25cb4383d8b675696a5f19a75c713f557d129a98be62d6bdc5af3f4e0ebbe6d8f9f27932e822c0d8665c875880dbf7cb59f4a3c86e615aa5fad244bcf4956b2764ff479ffeac6718e48c4d26abedc7e431b76f680e2cc7987b6829c78617554f31f9ee95c3d8a182b75a0b0f90fb47dd234428fe05acad98cc6321ae1b955a27af79144d067d8a9bc7d5319f2241b55c917b9d3b9cb10c615ec7974af97ea131d16e61d15e584a62983f79acdd5e7a4a1c41c0870628db34685f3080bd34672c0886772272e32c7c76d62a0ec845a9feee5ec1d280caedc37638b6c34ed38754f02748f14070196e26c895269d37b3dc6fa633cc954d7c6b967c53aa24813a10e36245ea8e97acbcde7f9db78b9552312a028d989f28e0f7d7e79eb8c583081338f829f71b4c40f3d2920b1e04686a2bdb4497a86bcafd4ab0d666284e34ca9cc426bb166ce67d87edf18dc54ac2dcd39172c22294fc102d8fa30d5785bae665a124a9106f87d2730cf627fa9b7e9ee06aa13c5cbe27c3a4a5285e9482a1105548737c019d1822edfe39d87dbee5792640c4a73b8212daafa1cd2a4a9e84a28bb95e8b15df63fef57e1e735eee78eab95ffe5667221367c912a3a04483e2a4d1e9a312105139a434d51ad59725984a9cc66a7ad0900ea3bfd8538f171dc617b3c4fc447e57f9caed4cc1a1a2a8c0c5261f9889002f2fdbe8d8a6f387fdc7ba5aca4f82aea0bc72b11dbace64861bbf91063f538b3ab1b2ce0e83448ee022c882e49175934cec006c247450d2a88a50ccf9545e62284d6f43bc092eaf19c44c7004d61d64fcf8490119d20d9553cd00fc91b3c523d957cc46d21d7a01fccc39960665d3254d5bf2deb19754102d8ecd3ddfb622a4509e4e8562fb8967c3ea36597f47c126ef8d549b8195a6f7103490e7965ae5facae6269745b8826fe60bf3fac53d67a6dec3ecbfe66200882480e2b5a597e776715489341f65c6e723b702a874393142595a3a7835b76b2202177ef5accc80bffce54d4ec90267806d3b56bfacf4b8ace1d5e13b788be46e0047c08347ff24dbf099d132fad72ada7cc3e15c6331b8a9fe3f916bc6a75d02a3a009d6f96589d27543079e70c86abe6ddfb444bb4e139119dca9fb0c286e8bea8d92b6e2251e7e0b6c808ccd2453a651d4e0202d7a0ffad6ed704341614144ffe74ebb5c8e3446b5fe6d69e713870fb7bd7a96c61fe9a93f839f61b33080d4722fe4e525e2f86cf6ed7c0d4d86abada00f15187d30a0093d90a351c6270cdb5bc99e8e0ea41fd42615f2f433ae85d9360f3860edb87ebc33bbf17511d8ab41a36afd20f3b9ed9ae27e3eddc5210739bfc6724182027b49e3dea3a84175ba5cd73b1d2b4d623324c29ba70819e70d149a4ea285e11929b10526f0e10f1e6bd5213e9eda46d528cedc055f8a14e00c86eed4b993bd7dfd1507d47f77e0074f01e0ac5bb8d204c23682114f2ea5c11ffe0862a051034def25c96ee7a456f26c548f7c30f688790f00d6d770e80bce8d1a959d2cdcffdefa46a7bc69ec7e41c33b89c0ff0d3fe5017f9bf4a48ff16ff76c42e8a9d4eb5c10c7866eec989e6a9db33c07e9a813ebd5e014cf1608fd85a1c430b0006f945461c8694a7c251ae6e4be4484255e5a1b58983e496534016090486f548824fc5f9ea92cbb6ec5843229402c5a3d0e41e56a6f4ac7568b34ed74bf5f58d26491b774a61effbdb12fb325bbf016489fc83f3792</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 简历进度 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C语言学习</title>
       <link href="//e4dd6d8c.html"/>
       <url>//e4dd6d8c.html</url>
