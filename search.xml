@@ -23,38 +23,6 @@
     
     
     <entry>
-      <title>打印机项目</title>
-      <link href="/2023/05/31/"/>
-      <url>/2023/05/31/</url>
-      
-        <content type="html"><![CDATA[<h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 练习项目 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>vscode</title>
-      <link href="/2023/03/19/"/>
-      <url>/2023/03/19/</url>
-      
-        <content type="html"><![CDATA[<h1 id="VSCode上搭建MDK开发环境"><a href="#VSCode上搭建MDK开发环境" class="headerlink" title="VSCode上搭建MDK开发环境"></a>VSCode上搭建MDK开发环境</h1><p><a href="https://blog.csdn.net/qq_43603289/article/details/118390807">https://blog.csdn.net/qq_43603289/article/details/118390807</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>DA14531</title>
       <link href="/2022/11/14/"/>
       <url>/2022/11/14/</url>
@@ -70,31 +38,6 @@
           
       </categories>
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>土壤水分/盐分/温度传感器</title>
-      <link href="/2022/11/09/"/>
-      <url>/2022/11/09/</url>
-      
-        <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>MST（Mysentech Soil Trio）是土壤水分&#x2F;盐分&#x2F;温度模组，采用高精度数字传感芯片结合 嵌入式处理与计算，采集测量土壤的水分含量、电导率（EC）和温度，具有灵敏度高、测 量精确、运行稳定、功耗低、耐候性好、易于使用等特点，可广泛应用于农业、林业、园艺 种植等行业。 每个模组出厂前均进行了温度系数校准以及土壤水分精度标定，保证用户应用时可直接进行 数据采集。</p><h1 id="功能特点"><a href="#功能特点" class="headerlink" title="功能特点"></a>功能特点</h1><p>采用自主研发的射频谐振电路，信号稳定，穿透力强 针对不同土壤的嵌入式水分、电导率模型与补偿计算，精度高 测量范围宽、线形度好、适用性广 内置存储器，无需维护和现场校准 节能省电模式支持，可以满足低功耗测量场合对功耗的苛刻需求</p><h1 id="主要技术指标"><a href="#主要技术指标" class="headerlink" title="主要技术指标"></a>主要技术指标</h1><p>土壤水分含量测量 - 典型精度：3% - 分辨率：0.1% - 量程：0~100%</p><p>温度测量 - 典型精度：0.5℃（或高配：0.1℃精度版本） - 高精度范围：0℃<del>+50℃ - 分辨率：0.1℃ - 量程：-70℃</del>+150℃ </p><p>电导率盐分测量 - 典型精度：3% - 分辨率：0.01mS&#x2F;cm - 量程：0<del>20mS&#x2F;cm 工作温度范围：-40℃</del>+85℃ 采集时间：&lt; 0.2 秒 平均功耗：26.82mA@5V 供电电压：3V~28V</p><p><img src="/../images/MST/image-20221109191204173.png" alt="image-20221109191204173"></p><h1 id="寄存器定义"><a href="#寄存器定义" class="headerlink" title="寄存器定义"></a>寄存器定义</h1><p><img src="/../images/MST/image-20221109191330314.png" alt="image-20221109191330314"></p><h1 id="原理图"><a href="#原理图" class="headerlink" title="原理图"></a>原理图</h1><div class="row">    <embed src="/local_file/MST_V3.0.pdf" width="100%" height="550" type="application/pdf"></div><p><a href='/local_file/test.pdf' target='_blank'>点击这里在新的网页打开pdf文件</a><br><a href='/my_folder/test.txt' target='_blank'>MST原理图</a></p><h1 id="主程序流程图"><a href="#主程序流程图" class="headerlink" title="主程序流程图"></a>主程序流程图</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 毕业设计 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> MST </tag>
-            
-        </tags>
       
     </entry>
     
@@ -178,43 +121,11 @@
     
     
     <entry>
-      <title>二层PCB</title>
-      <link href="/2022/11/02/"/>
-      <url>/2022/11/02/</url>
-      
-        <content type="html"><![CDATA[<h1 id="相关网站"><a href="#相关网站" class="headerlink" title="相关网站"></a>相关网站</h1><ol><li><a href="https://www.ebyte.com/product-view-news.html?id=1028">E104-BT52 DA14531芯片主从一体蓝牙模块-蓝牙5.0 协议 -蓝牙转串口模块 (ebyte.com)</a></li><li></li></ol><h1 id="创建一个空白的电子设计工程"><a href="#创建一个空白的电子设计工程" class="headerlink" title="创建一个空白的电子设计工程"></a>创建一个空白的电子设计工程</h1><p><img src="/../images/pcbTwo/image-20221102130912232.png" alt="image-20221102130912232"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 毕业设计 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>python</title>
-      <link href="/2022/10/07/"/>
-      <url>/2022/10/07/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>求职</title>
       <link href="/2022/10/07/"/>
       <url>/2022/10/07/</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过你还是能看看解密后的内容。">  <script id="hbeData" type="hbeData" data-hmacdigest="950989a6ee7803a333df3c08b201dab1cc2559eca5ae8e40d9693759010a9d36">1b693c4938223286468132b2f7068bf6843f685a75b91ea775f5232a30882919c11c766bf1e78ff2257345cc84b6b5ed5c88fc6cb4c15d205c6169dcfcc586f235262ea2d78205cbc0242fae235f497e8ab3416f473e3dad21cf049976179620d6fffe96ecf3867d7284e009ee6ebab83259e52b469d2f6491ebd337f684c014e1514c7b9d9251f7045af2a3073fabc45d118d36e412e9a00508f827778dfb735af433ef29e1b3ce265ad3465e53c9d4c9dd4a939e5f77df2c4dbce0f3fbb732e43ea50e0301df9fc532df72d8f7f4cfb1b5a3bacfc088e1568f54e7d775b6793b0ea73a01f4994998ec192128049b5d10677d78aa86a9abddc934fbdeb160eb4b118a69286f22699df70380d5f9cb1bf74a44931f57540391cc3e1b25cb4383d8b675696a5f19a75c713f557d129a98be62d6bdc5af3f4e0ebbe6d8f9f27932e822c0d8665c875880dbf7cb59f4a3c86e615aa5fad244bcf4956b2764ff479ffeac6718e48c4d26abedc7e431b76f680e2cc7987b6829c78617554f31f9ee95c3d8a182b75a0b0f90fb47dd234428fe05acad98cc6321ae1b955a27af79144d067d8a9bc7d5319f2241b55c917b9d3b9cb10c615ec7974af97ea131d16e61d15e584a62983f79acdd5e7a4a1c41c0870628db34685f3080bd34672c0886772272e32c7c76d62a0ec845a9feee5ec1d280caedc37638b6c34ed38754f02748f14070196e26c895269d37b3dc6fa633cc954d7c6b967c53aa24813a10e36245ea8e97acbcde7f9db78b9552312a028d989f28e0f7d7e79eb8c583081338f829f71b4c40f3d2920b1e04686a2bdb4497a86bcafd4ab0d666284e34ca9cc426bb166ce67d87edf18dc54ac2dcd39172c22294fc102d8fa30d5785bae665a124a9106f87d2730cf627fa9b7e9ee06aa13c5cbe27c3a4a5285e9482a1105548737c019d1822edfe39d87dbee5792640c4a73b8212daafa1cd2a4a9e84a28bb95e8b15df63fef57e1e735eee78eab95ffe5667221367c912a3a04483e2a4d1e9a312105139a434d51ad59725984a9cc66a7ad0900ea3bfd8538f171dc617b3c4fc447e57f9caed4cc1a1a2a8c0c5261f9889002f2fdbe8d8a6f387fdc7ba5aca4f82aea0bc72b11dbace64861bbf91063f538b3ab1b2ce0e83448ee022c882e49175934cec006c247450d2a88a50ccf9545e62284d6f43bc092eaf19c44c7004d61d64fcf8490119d20d9553cd00fc91b3c523d957cc46d21d7a01fccc39960665d3254d5bf2deb19754102d8ecd3ddfb622a4509e4e8562fb8967c3ea36597f47c126ef8d549b8195a6f7103490e7965ae5facae6269745b8826fe60bf3fac53d67a6dec3ecbfe66200882480e2b5a597e776715489341f65c6e723b702a874393142595a3a7835b76b2202177ef5accc80bffce54d4ec90267806d3b56bfacf4b8ace1d5e13b788be46e0047c08347ff24dbf099d132fad72ada7cc3e15c6331b8a9fe3f916bc6a75d02a3a009d6f96589d27543079e70c86abe6ddfb444bb4e139119dca9fb0c286e8bea8d92b6e2251e7e0b6c808ccd2453a651d4e0202d7a0ffad6ed704341614144ffe74ebb5c8e3446b5fe6d69e713870fb7bd7a96c61fe9a93f839f61b33080d4722fe4e525e2f86cf6ed7c0d4d86abada00f15187d30a0093d90a351c6270cdb5bc99e8e0ea41fd42615f2f433ae85d9360f3860edb87ebc33bbf17511d8ab41a36afd20f3b9ed9ae27e3eddc5210739bfc6724182027b49e3dea3a84175ba5cd73b1d2b4d623324c29ba70819e70d149a4ea285e11929b10526f0e10f1e6bd5213e9eda46d528cedc055f8a14e00c86eed4b993bd7dfd1507d47f77e0074f01e0ac5bb8d204c23682114f2ea5c11ffe0862a051034def25c96ee7a456f26c548f7c30f688790f00d6d770e80bce8d1a959d2cdcffdefa46a7bc69ec7e41c33b89c0ff0d3fe5017f9bf4a48ff16ff76c42e8a9d4eb5c10c7866eec989e6a9db33c07e9a813ebd5e014cf1608fd85a1c430b0006f945461c8694a7c251ae6e4be4484255e5a1b58983e496534016090486f548824fc5f9ea92cbb6ec5843229402c5a3d0e41e56a6f4ac7568b34ed74bf5f58d26491b774a61effbdb12fb325bbf016489fc83f3792</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过你还是能看看解密后的内容。">  <script id="hbeData" type="hbeData" data-hmacdigest="f0749701b6636b399ffccba3043307d581b6e2ac7306bf51354e4fba3a15b23e">1b693c4938223286468132b2f7068bf6843f685a75b91ea775f5232a30882919c11c766bf1e78ff2257345cc84b6b5ed5c88fc6cb4c15d205c6169dcfcc586f235262ea2d78205cbc0242fae235f497e8ab3416f473e3dad21cf049976179620d6fffe96ecf3867d7284e009ee6ebab83259e52b469d2f6491ebd337f684c014e1514c7b9d9251f7045af2a3073fabc45d118d36e412e9a00508f827778dfb735af433ef29e1b3ce265ad3465e53c9d4c9dd4a939e5f77df2c4dbce0f3fbb732e43ea50e0301df9fc532df72d8f7f4cfb1b5a3bacfc088e1568f54e7d775b6793b0ea73a01f4994998ec192128049b5d10677d78aa86a9abddc934fbdeb160eb4b118a69286f22699df70380d5f9cb1bf74a44931f57540391cc3e1b25cb4383d8b675696a5f19a75c713f557d129a98be62d6bdc5af3f4e0ebbe6d8f9f27932e822c0d8665c875880dbf7cb59f4a3c86e615aa5fad244bcf4956b2764ff479ffeac6718e48c4d26abedc7e431b76f680e2cc7987b6829c78617554f31f9ee95c3d8a182b75a0b0f90fb47dd234428fe05acad98cc6321ae1b955a27af79144d067d8a9bc7d5319f2241b55c917b9d3b9cb10c615ec7974af97ea131d16e61d15e584a62983f79acdd5e7a4a1c41c0870628db34685f3080bd34672c0886772272e32c7c76d62a0ec845a9feee5ec1d280caedc37638b6c34ed38754f02748f14070196e26c895269d37b3dc6fa633cc954d7c6b967c53aa24813a10e36245ea8e97acbcde7f9db78b9552312a028d989f28e0f7d7e79eb8c583081338f829f71b4c40f3d2920b1e04686a2bdb4497a86bcafd4ab0d666284e34ca9cc426bb166ce67d87edf18dc54ac2dcd39172c22294fc102d8fa30d5785bae665a124a9106f87d2730cf627fa9b7e9ee06aa13c5cbe27c3a4a5285e9482a1105548737c019d1822edfe39d87dbee5792640c4a73b8212daafa1cd2a4a9e84a28bb95e8b15df63fef57e1e735eee78eab95ffe5667221367c912a3a04483e2a4d1e9a312105139a434d51ad59725984a9cc66a7ad0900ea3bfd8538f171dc617b3c4fc447e57f9caed4cc1a1a2a8c0c5261f9889002f2fdbe8d8a6f387fdc7ba5aca4f82aea0bc72b11dbace64861bbf91063f538b3ab1b2ce0e83448ee022c882e49175934cec006c247450d2a88a50ccf9545e62284d6f43bc092eaf19c44c7004d61d64fcf8490119d20d9553cd00fc91b3c523d957cc46d21d7a01fccc39960665d3254d5bf2deb19754102d8ecd3ddfb622a4509e4e8562fb8967c3ea36597f47c126ef8d549b8195a6f7103490e7965ae5facae6269745b8826fe60bf3fac53d67a6dec3ecbfe66200882480e2b5a597e776715489341f65c6e723b702a874393142595a3a7835b76b2202177ef5accc80bffce54d4ec90267806d3b56bfacf4b8ace1d5e13b788be46e0047c08347ff24dbf099d132fad72ada7cc3e15c6331b8a9fe3f916bc6a75d02a3a009d6f96589d27543079e70c86abe6ddfb444bb4e139119dca9fb0c286e8bea8d92b6e2251e7e0b6c808ccd2453a651d4e0202d7a0ffad6ed704341614144ffe74ebb5c8e3446b5fe6d69e713870fb7bd7a96c61fe9a93f839f61b33080d4722fe4e525e2f86cf6ed7c0d4d86abada00f15187d30a0093d90a351c6270cdb5bc99e8e0ea41fd42615f2f433ae85d9360f3860edb87ebc33bbf17511d8ab41a36afd20f3b9ed9ae27e3eddc5210739bfc6724182027b49e3dea3a84175ba5cd73b1d2b4d623324c29ba70819e70d149a4ea285e11929b10526f0e10f1e6bd5213e9eda46d528cedc055f8a14e00c86eed4b993bd7dfd1507d47f77e0074f01e0ac5bb8d204c23682114f2ea5c11ffe0862a051034def25c96ee7a456f26c548f7c30f688790f00d6d770e80bce8d1a959d2cdcffdefa46a7bc69ec7e41c33b89c0ff0d3fe5017f3b2ba0d3dac51b18cf7c5245a9d04466</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       <categories>
@@ -261,19 +172,6 @@
             <tag> git </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>简历</title>
-      <link href="/2022/09/30/"/>
-      <url>/2022/09/30/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
       
     </entry>
     
