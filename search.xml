@@ -4,6 +4,57 @@
   
     
     <entry>
+      <title>随笔记录</title>
+      <link href="//6c381b73.html"/>
+      <url>//6c381b73.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="DNS刷新、IP配置"><a href="#DNS刷新、IP配置" class="headerlink" title="DNS刷新、IP配置"></a>DNS刷新、IP配置</h2><figure class="highlight tcl"><table><tr><td class="code"><pre><span class="line">C:\Windows\System32\drivers\etc</span><br></pre></td></tr></table></figure><figure class="highlight tcl"><table><tr><td class="code"><pre><span class="line">ipconfig/flushdns</span><br></pre></td></tr></table></figure><h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 待整理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Triplet</title>
+      <link href="//fd2e1333.html"/>
+      <url>//fd2e1333.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>QT_entry</title>
+      <link href="//3bef31da.html"/>
+      <url>//3bef31da.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-qt-导入现有项目"><a href="#1-qt-导入现有项目" class="headerlink" title="1.qt 导入现有项目"></a>1.qt 导入现有项目</h2><h2 id="2-控件-QComboBox"><a href="#2-控件-QComboBox" class="headerlink" title="2.控件-QComboBox"></a>2.控件-QComboBox</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">.<span class="built_in">addItem</span>(string) #添加字符串项到Item </span><br><span class="line"></span><br><span class="line">.<span class="built_in">addItems</span>(list) #添加列表或元组元素到Item </span><br><span class="line"></span><br><span class="line">.<span class="built_in">clear</span>() #清除所有Item </span><br><span class="line"></span><br><span class="line">.<span class="built_in">clearEditText</span>() #清除编辑框内容 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">count</span>() #返回Item数目 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">currentIndex</span>() #返回当前选择索引，从<span class="number">0</span>开始 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">currentText</span>() #返回当前选择内容 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">insertItem</span>(index,string) #插入字符串项到Item项index后 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">insertItems</span>(index,list) #插入列表或元组元素到Item项index后 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">insertSeparator</span>(index) #插入分隔符到Item项index后 .<span class="built_in">itemText</span>(index) #返回Item项index的内容 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">removeItem</span>(index) #删除Item项index </span><br><span class="line"></span><br><span class="line">.<span class="built_in">setCurrentIndex</span>(index) #设置Item项index为当前选择 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">setEditable</span>(True) #设置选框可编辑 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">setEditText</span>(string) #设置编辑框内容 </span><br><span class="line"></span><br><span class="line">.<span class="built_in">setItemText</span>(index,string) #设置Item项index内容为字符串值</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="2-excel"><a href="#2-excel" class="headerlink" title="2.excel"></a>2.excel</h2><p><img src="D:\HexoGitResp\HEXO\blog\source\IMAGS\QT-entry\image-20230918174424431.png" alt="image-20230918174424431"></p><p><a href="https://blog.csdn.net/qq_41488943/article/details/102838380">https://blog.csdn.net/qq_41488943/article/details/102838380</a></p><h2 id="3-QT-纯代码控件-QTableWidget（表格）"><a href="#3-QT-纯代码控件-QTableWidget（表格）" class="headerlink" title="3.QT-纯代码控件-QTableWidget（表格）"></a>3.QT-纯代码控件-QTableWidget（表格）</h2><p><a href="https://blog.csdn.net/qq_41488943/article/details/96431695">https://blog.csdn.net/qq_41488943/article/details/96431695</a></p><h2 id="4-QtXlsx-配置的两种方法-第二种方法"><a href="#4-QtXlsx-配置的两种方法-第二种方法" class="headerlink" title="4.QtXlsx 配置的两种方法-第二种方法"></a>4.QtXlsx 配置的两种方法-第二种方法</h2><p><a href="https://blog.csdn.net/weixin_37204973/article/details/82503386">https://blog.csdn.net/weixin_37204973/article/details/82503386</a></p><p>18:18:58: 正在启动 “D:\Qt\Qt5.11.2\Tools\mingw530_32\bin\mingw32-make.exe” </p><h2 id="5-QtXlsx使用文档"><a href="#5-QtXlsx使用文档" class="headerlink" title="5.QtXlsx使用文档"></a>5.QtXlsx使用文档</h2><p><a href="http://qtxlsx.debao.me/document.html#Document">http://qtxlsx.debao.me/document.html#Document</a></p><h2 id="6-注册表"><a href="#6-注册表" class="headerlink" title="6.注册表"></a>6.注册表</h2><p><a href="https://blog.csdn.net/weixin_48465965/article/details/119696150">https://blog.csdn.net/weixin_48465965/article/details/119696150</a></p><p><a href="https://www.cnblogs.com/linuxAndMcu/p/10966250.html">https://www.cnblogs.com/linuxAndMcu/p/10966250.html</a></p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//使用常量字符串来指定保存的注册表位置</span></span><br><span class="line">    <span class="function">QSettings <span class="title">settings</span><span class="params">(<span class="string">&quot;HKEY_CURRENT_USER\\Software\\dddddd&quot;</span>,QSettings::NativeFormat)</span></span>;</span><br><span class="line">    settings.<span class="built_in">setValue</span>(<span class="string">&quot;test&quot;</span>, <span class="string">&quot;11111&quot;</span>);<span class="comment">//写键值对</span></span><br><span class="line">    QString value = settings.<span class="built_in">value</span>(<span class="string">&quot;test&quot;</span>, <span class="string">&quot;error&quot;</span>).<span class="built_in">toString</span>();<span class="comment">//读键值对</span></span><br><span class="line">    <span class="built_in">qDebug</span>() &lt;&lt; value; <span class="comment">//输出：&quot;11111&quot;</span></span><br></pre></td></tr></table></figure><p>同时按下 win+R 输入 regedit，即可打开本地计算机注册表根目录</p><h2 id="7-Qt国际化之tr-动态翻译"><a href="#7-Qt国际化之tr-动态翻译" class="headerlink" title="7.Qt国际化之tr() 动态翻译"></a>7.Qt国际化之tr() 动态翻译</h2><p><a href="https://blog.csdn.net/li1123576747/article/details/109383949">https://blog.csdn.net/li1123576747/article/details/109383949</a></p><h2 id="8-打包"><a href="#8-打包" class="headerlink" title="8.打包"></a>8.打包</h2><p><a href="https://blog.csdn.net/ColinFhz/article/details/107879769">https://blog.csdn.net/ColinFhz/article/details/107879769</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>简历</title>
       <link href="//963f9cce.html"/>
       <url>//963f9cce.html</url>
